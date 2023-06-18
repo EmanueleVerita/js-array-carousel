@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.images img{
+    width: 400px; 
+    height: 400px;
+    object-fit: cover;
+}
+
+#carousel{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.prev{
+    top: 5px;
+}
+
+.next{
+    bottom: 5px;
+}
+
+
+
