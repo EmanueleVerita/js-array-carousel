@@ -21,6 +21,14 @@
     object-fit: cover;
 }
 
+.images{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
 #carousel{
     width: 400px;
     height: 400px;
